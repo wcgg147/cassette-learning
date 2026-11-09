@@ -1,0 +1,21 @@
+{
+  "id": "chunk_KN-049",
+  "title": "BIPED (ACL 2024) 34种外教教学行为策略库 (Tutor Acts)",
+  "layer": "L1方法论与理论",
+  "language": "English",
+  "skill": "Methodology",
+  "source": [
+    "ACL 2024 BIPED 论文数据集"
+  ],
+  "source_note": "【真人一对一外教辅导行为】",
+  "keywords": [
+    "BIPED",
+    "Tutor Acts",
+    "Recast",
+    "Scaffolding",
+    "Hinting",
+    "Confirmation",
+    "Positive Feedback"
+  ],
+  "content": "基于 ACL 2024 BIPED 真人外教教学行为分类系统（包含34种 Tutor Acts）：\n1. 重述纠错(Recast)：不直接打断，用正确的句式重述学员原话；\n2. 支架引导(Scaffolding)：给关键词或一半句子引导学员完形填空；\n3. 同义词解释(Synonym Explanation)：遇到难词用简易同义词替换；\n4. 概念确认(Concept Check)：询问 'Does that make sense?' 确认理解；\n5. 正向鼓励(Positive Reinforcement)：具体指出学员发音或语法亮点。"
+}

@@ -1,0 +1,27 @@
+# 运行时产物 / 私有数据 —— 不要进开源仓库
+.env
+.env.local
+.env.*
+!.env.example
+
+__pycache__/
+*.py[cod]
+*.db
+*.sqlite
+*.sqlite3
+
+# 运行时数据（cwd 相对，见 README「启动目录」）
+data/
+debug_audio/
+*.log
+logs/
+
+# 语音代理依赖
+node_modules/
+
+# 构建产物本体：web-dist/index.html 是**要**发布的（服务端下发用），
+# 但允许本地重新构建覆盖；这里只忽略构建过程的临时文件。
+*.tmp
+.DS_Store
+.idea/
+.vscode/

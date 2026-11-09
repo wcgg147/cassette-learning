@@ -1,0 +1,25 @@
+{
+  "id": "chunk_KN-036",
+  "title": "咖啡店扫码与网络故障口语应对",
+  "layer": "L5即时互动与引导",
+  "language": "English",
+  "skill": "Speaking",
+  "source": [
+    "真实日常对话语料库",
+    "餐饮口语指南"
+  ],
+  "source_note": "【扫码点单异常】",
+  "keywords": [
+    "扫码",
+    "二维码",
+    "扫不出来",
+    "卡顿",
+    "故障",
+    "QR code",
+    "network issue",
+    "scanning",
+    "order at the counter",
+    "code isn't working"
+  ],
+  "content": "当顾客遇到二维码无法扫描或系统卡超时，标准地道表达：'The QR code isn't working. Can I order directly at the counter?'。店员常见回复：'Sure, what can I get for you today?' 或 'Let me check the system. You can order here.'。纠错要点：避免误说 'The code is bad'，在英文中常用 'isn't loading' 或 'isn't working'。"
+}

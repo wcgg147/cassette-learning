@@ -1,0 +1,22 @@
+{
+  "id": "chunk_KN-048",
+  "title": "COCA 口语核心停顿词与真人感填充词 (Fillers)",
+  "layer": "L5即时互动与引导",
+  "language": "English",
+  "skill": "Speaking",
+  "source": [
+    "COCA 口语交际分析"
+  ],
+  "source_note": "【填充词与停顿】",
+  "keywords": [
+    "填充词",
+    "停顿词",
+    "思考词",
+    "well",
+    "you know",
+    "like",
+    "I mean",
+    "to be honest"
+  ],
+  "content": "COCA 语料库统计显示母语者在即兴表达时高频使用的口语缓冲词：'Well'(嗯/这个嘛)、'You know'(你知道的/那个)、'I mean'(我的意思是)、'To be honest'(老实说)。在 AI 语音导师回答时适度穿插这些词汇可显著提升'活人感'与思考真实感。"
+}

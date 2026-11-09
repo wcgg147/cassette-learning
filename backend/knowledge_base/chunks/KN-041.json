@@ -1,0 +1,24 @@
+{
+  "id": "chunk_KN-041",
+  "title": "海关入境问答与行程说明",
+  "layer": "L5即时互动与引导",
+  "language": "English",
+  "skill": "Speaking",
+  "source": [
+    "出入境海关问答语料"
+  ],
+  "source_note": "【海关通关】",
+  "keywords": [
+    "海关",
+    "入境",
+    "海关问答",
+    "停留时间",
+    "旅游",
+    "purpose of visit",
+    "sightseeing",
+    "return ticket",
+    "accommodation",
+    "duration of stay"
+  ],
+  "content": "海关问答标准表达：官员：'What's the purpose of your visit?' 答：'I'm here for tourism/business.'。回答停留时间：'I'm staying for 7 days.'。展示酒店确认单：'Here is my hotel reservation and return ticket.'。"
+}

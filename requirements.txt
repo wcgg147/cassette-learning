@@ -1,0 +1,29 @@
+# 会话磁带 · 开源包依赖（只保留本地 SQLite 形态真正需要的）
+#
+# 与原仓的差别：去掉了 pipecat-ai（实时语音管线不在本包）、
+# psycopg2/pgvector/redis/asyncpg（PG/Redis 后端不在本包，asyncpg 已改惰性导入）、
+# fastembed（可选 embedder，仅 EMBEDDING_PROVIDER=fastembed 时才用）、
+# websockets/loguru（Python 后端根本没 import 它们）。
+# 判据是逐文件扫过 shipped 代码的实际 import，不是照抄原仓清单。
+
+fastapi
+uvicorn[standard]
+python-multipart>=0.0.9
+python-dotenv
+pydantic
+
+# 逐轮内核 / 知识点检索 / 漂移检测：import 期就要
+numpy
+openai
+httpx
+
+# 素材盘：本地文件导入（懒导入，只在上传文件时用）
+pypdf>=5.0.0
+python-docx>=1.1.0
+ebooklib>=0.18
+
+# 以下为**软依赖**，只在特定可选路径触发；装不上不影响四盘主流程：
+#   requests  —— drift_detector 走外部 embedder 时
+#   yt-dlp    —— 素材盘贴视频链接时（装不上自动降级为标题+简介）
+#   fastembed —— EMBEDDING_PROVIDER=fastembed 时
+# 需要时按对应功能自行安装，不写进核心安装清单。

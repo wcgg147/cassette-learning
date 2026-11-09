@@ -1,0 +1,22 @@
+{
+  "id": "chunk_KN-047",
+  "title": "COCA 语料库高频地道口语短语与自然接话",
+  "layer": "L4语言点精讲与纠错",
+  "language": "English",
+  "skill": "Vocabulary",
+  "source": [
+    "COCA 美国当代英语语料库 (Spoken/TV)"
+  ],
+  "source_note": "【COCA 真实口语统计】",
+  "keywords": [
+    "COCA",
+    "地道表达",
+    "口语替换",
+    "同意",
+    "走了",
+    "You can say that again",
+    "I'm not really sure",
+    "I've got to run"
+  ],
+  "content": "基于 COCA 10亿词汇库口语(Spoken)及影视(TV/Movie)体裁高频词搭配：不用 'I agree'，用 'You can say that again!' 或 'Spot on!'。不用 'I must leave'，用 'I've got to run'。不用 'That sounds good'，用 'Sounds like a plan!'。不用 'Goodbye'，用 'Catch you later!'。"
+}

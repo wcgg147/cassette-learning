@@ -1,0 +1,20 @@
+{
+  "id": "chunk_KN-050",
+  "title": "BIPED 隐性重述纠错 (Recast) 实战规则",
+  "layer": "L5即时互动与引导",
+  "language": "English",
+  "skill": "Methodology",
+  "source": [
+    "BIPED 教学法"
+  ],
+  "source_note": "【隐性纠错 Recast】",
+  "keywords": [
+    "Recast",
+    "隐性纠错",
+    "重述",
+    "Implicit Feedback",
+    "Error Correction",
+    "Flow Maintenance"
+  ],
+  "content": "Recast (隐性重述) 是真人外教最常用的纠错行为。当学员说：'Yesterday I go to coffee shop'，导师不打断流动性，直接重述接话：'Oh, you went to a coffee shop yesterday! What did you order?'。既修正了时态 'went'，又顺畅推进了对话。"
+}
