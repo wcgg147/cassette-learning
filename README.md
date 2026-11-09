@@ -132,6 +132,5 @@ MEMORY_BACKEND=local WX_DEV_MODE=1 CONVERSATION_DIRECTOR_API_KEY=sk-offline-test
 > **语料版权**：`backend/knowledge_base/chunks/` 下 52 个 KN 文件为团队原创的外语教学法教学笔记（非抓取第三方原文），与代码采用同一许可证。
 
 
-MIT（见 [LICENSE](LICENSE)）—— **这是拆分时放的占位选择，正式开源前请自己定**，
-尤其是 `voice/` 里各家语音协议的适配层、`knowledge_base/chunks/` 语料的来源，
-要不要沿用 MIT 由你拍板。
+MIT（见 [LICENSE](LICENSE)）—— © 2026 WCGG147。`voice/` 里各家语音协议的适配层、
+`knowledge_base/chunks/` 语料均为原创内容，与代码同协议开源。
