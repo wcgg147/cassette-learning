@@ -24,6 +24,23 @@ It keeps the parts a learner actually touches:
 It is **conversation-first**: no fixed scripts, no "ask → must say goodbye → close" flows.
 What it says next depends on the live state, not a menu.
 
+## Status: unfinished snapshot (read this first)
+
+> This is a **mid-development snapshot** extracted from a larger product for
+> open-sourcing — not a finished product. Below: what is verified vs. what is
+> not yet done.
+
+**Verified** (see [`docs/ACCEPTANCE.md`](docs/ACCEPTANCE.md)):
+- E0 static: no dangling imports, frontend JS syntax, secret scan 0 hits, no credential files.
+- E1 unit: backend `agent` 536 + `test_runner` 431 cases green (14 inherited reds triaged).
+- E2 service: full stack up with zero keys; four drawers / material library / wordbook / session all 200.
+- E3 browser: four drawers + material import (text→analyze→pack) clicked through, 0 frontend errors.
+
+**Not done / not verified (this is a work in progress, not bug-free)**
+1. **Real voice conversation unverified**: the proxy runs text-only without keys; ASR was probed OK but **reply generation never completed** because all model keys were dead (account/quota, not a code defect). Re-run per `docs/ACCEPTANCE.md` §7 once a key is available.
+2. **AI material analysis needs a key**: offline, `hooks / top_chunks / summary` are empty (the pack still creates, just without analysis).
+3. **Two known minor issues unfixed** (logged in the acceptance report, non-blocking): scenario drawer mislabels as "chat drawer"; material-pack analysis empty without a key.
+
 ## Quick start
 
 Requirements: **Python 3.12**, **Node.js 18+**. No API keys needed — the voice/AI
