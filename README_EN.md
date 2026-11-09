@@ -6,6 +6,8 @@
 
 [中文说明](README.md)
 
+> ⚠️ **WIP snapshot**: this repo is an **unfinished extract** open-sourced from a larger product. What's verified vs. not-done: see the Status section below and [`STATUS.md`](STATUS.md).
+
 ## What it is
 
 Cassette Learning is an open-source slice of a larger voice-AI language tutor.
