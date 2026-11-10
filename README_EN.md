@@ -26,6 +26,16 @@ It keeps the parts a learner actually touches:
 It is **conversation-first**: no fixed scripts, no "ask → must say goodbye → close" flows.
 What it says next depends on the live state, not a menu.
 
+## Screenshots
+
+| Main view · tape deck / loop player | My tape cabinet · four drawers |
+|:---:|:---:|
+| <img src="docs/screenshots/main-player.png" width="260" alt="Main view: cassette tape deck"> | <img src="docs/screenshots/cassette-library.png" width="260" alt="Tape cabinet: four drawers"> |
+
+Real frontend screenshots (skeuomorphic cassette UI). Left: a single tape's main view with
+play / eject / speak controls. Right: the tape cabinet, organized into chat / expression /
+material drawers.
+
 ## Status: unfinished snapshot (read this first)
 
 > This is a **mid-development snapshot** extracted from a larger product for
